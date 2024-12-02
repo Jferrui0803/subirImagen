@@ -10,16 +10,16 @@ Esta es una aplicación Laravel para subir y gestionar imágenes.
 
 ## Requisitos
 
-- PHP ^8.2
+- PHP 
 - Composer
-- Node.js
+- Laravel
 
 ## Instalación
 
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/upload-file-app.git
-    cd upload-file-app
+    git clone https://github.com/Jferrui0803/subirImagen.git
+    cd subirImagen
     ```
 
 2. Instala las dependencias de PHP:
@@ -27,25 +27,16 @@ Esta es una aplicación Laravel para subir y gestionar imágenes.
     composer install
     ```
 
-3. Instala las dependencias de Node.js:
-    ```sh
-    npm install
-    ```
 
-4. Configura el archivo `.env`:
+3. Configura el archivo `.env`:
     ```sh
     cp .env.example .env
     php artisan key:generate
     ```
 
-5. Ejecuta las migraciones:
+4. Ejecuta las migraciones:
     ```sh
     php artisan migrate
-    ```
-
-6. Inicia el servidor de desarrollo:
-    ```sh
-    php artisan serve
     ```
 
 ## Uso
@@ -55,25 +46,24 @@ Esta es una aplicación Laravel para subir y gestionar imágenes.
 1. Navega a la página de subir imagen: `/subir/create`
 2. Selecciona una imagen y haz clic en "Subir".
 
-![Subir Imagen](/img/captura1.png)
+![Subir Imagen](/img/segundacap.png)
 
 ### Ver Lista de Imágenes
 
 1. Navega a la página principal: `/`
 2. Verás una lista de todas las imágenes subidas.
 
-![Lista de Imágenes](/img/captura2.png)
+![Lista de Imágenes](/img/primercap.png)
 
 ### Ver Detalles de una Imagen
 
 1. Haz clic en el nombre de una imagen en la lista.
 2. Verás los detalles de la imagen seleccionada.
 
-![Detalles de la Imagen](/img/captura3.png)
+![Detalles de la Imagen](/img/terceracap.png)
 
 ## Contribuir
 
-¡Las contribuciones son bienvenidas! Por favor, abre un issue o un pull request.
 
 ## Licencia
 

@@ -3,7 +3,7 @@
 @section('content')
     <div class="container mt-5">
         <div class="card shadow-lg">
-            <div class="card-header bg-primary text-white">
+            <div class="card-header text-white">
                 <h1 class="card-title">{{ $subir->nombre_original }}</h1>
             </div>
             <div class="card-body text-center">
