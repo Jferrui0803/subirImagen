@@ -1,6 +1,6 @@
-# Upload File App
+# Upload Images App
 
-Esta es una aplicación Laravel para subir y gestionar imágenes.
+Esta es una aplicación Laravel para subir y gestionar imágenes y archivos de forma interactiva.
 
 ## Características
 
